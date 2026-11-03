@@ -1,0 +1,900 @@
+{
+  "source": {
+    "title": "Indian First Aid Manual",
+    "edition": "2016, 7th edition",
+    "publisher": "Indian Red Cross Society and St. John Ambulance Association (India)",
+    "note": "Summarized English first-aid library entries derived from the uploaded manual. This JSON is not a substitute for emergency services, professional medical advice, or practical first-aid training."
+  },
+  "topics": [
+    {
+      "id": 1,
+      "title": "CPR and Cardiac Arrest",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid when a person is unresponsive and not breathing normally.",
+          "steps": [
+            "Ensure the scene is safe and check responsiveness.",
+            "Call emergency services and ask someone to get an AED.",
+            "If the person is unresponsive and not breathing normally, start CPR.",
+            "Push hard and fast in the centre of the chest; allow the chest to recoil.",
+            "Use the AED as soon as it is available and follow its voice prompts.",
+            "Continue until the person shows signs of life, trained help takes over, you are exhausted, or the scene becomes unsafe."
+          ],
+          "donts": [
+            "Do not delay calling for help or starting CPR.",
+            "Do not interrupt chest compressions unnecessarily."
+          ],
+          "emergency_signs": [
+            "Unresponsiveness",
+            "Absent or abnormal breathing"
+          ]
+        },
+        "hi": {
+          "description": "जब कोई व्यक्ति बेहोश हो और सामान्य रूप से साँस न ले रहा हो, तब दी जाने वाली प्राथमिक चिकित्सा।",
+          "steps": [
+            "सुनिश्चित करें कि घटनास्थल सुरक्षित है और व्यक्ति की प्रतिक्रिया जाँचें।",
+            "आपातकालीन सेवाओं को बुलाएँ और किसी से AED लाने को कहें।",
+            "यदि व्यक्ति बेहोश है और सामान्य रूप से साँस नहीं ले रहा है, तो CPR शुरू करें।",
+            "छाती के बीच में जोर से और तेज़ दबाव दें; हर दबाव के बाद छाती को वापस उठने दें।",
+            "AED उपलब्ध होते ही उसका उपयोग करें और उसके आवाज़ निर्देशों का पालन करें।",
+            "जब तक व्यक्ति में जीवन के संकेत न दिखें, प्रशिक्षित सहायता न आ जाए, आप थक न जाएँ या स्थान असुरक्षित न हो जाए, तब तक जारी रखें।"
+          ],
+          "donts": [
+            "मदद बुलाने या CPR शुरू करने में देरी न करें।",
+            "छाती दबाने की प्रक्रिया को अनावश्यक रूप से न रोकें।"
+          ],
+          "emergency_signs": [
+            "बेहोशी या प्रतिक्रिया न देना",
+            "साँस न लेना या असामान्य साँस लेना"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Choking",
+      "category": "Breathing Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid for a person whose airway is blocked by food or another object.",
+          "steps": [
+            "If the person can cough or speak, encourage them to keep coughing.",
+            "If choking is severe, call for emergency help.",
+            "Give back blows and abdominal thrusts to an adult or child over one year according to your training.",
+            "For an infant under one year, use infant-specific back blows and chest thrusts; do not use abdominal thrusts.",
+            "If the person becomes unresponsive, lower them safely and begin CPR."
+          ],
+          "donts": [
+            "Do not perform blind finger sweeps inside the mouth.",
+            "Do not give food or drink while choking."
+          ],
+          "emergency_signs": [
+            "Unable to speak, breathe, or cough effectively",
+            "Blue or grey lips",
+            "Loss of consciousness"
+          ]
+        },
+        "hi": {
+          "description": "जब भोजन या कोई वस्तु व्यक्ति की साँस की नली को अवरुद्ध कर दे, तब दी जाने वाली प्राथमिक चिकित्सा।",
+          "steps": [
+            "यदि व्यक्ति खाँस या बोल सकता है, तो उसे खाँसते रहने के लिए प्रोत्साहित करें।",
+            "गंभीर दम घुटने पर आपातकालीन सहायता बुलाएँ।",
+            "अपने प्रशिक्षण के अनुसार वयस्क या एक वर्ष से बड़े बच्चे को पीठ पर थपकी और पेट पर धक्का दें।",
+            "एक वर्ष से कम शिशु के लिए शिशु-विशिष्ट पीठ की थपकियाँ और छाती पर धक्के दें; पेट पर धक्का न दें।",
+            "यदि व्यक्ति बेहोश हो जाए, तो उसे सुरक्षित रूप से नीचे लिटाएँ और CPR शुरू करें।"
+          ],
+          "donts": [
+            "मुँह के अंदर बिना देखे उँगली न डालें।",
+            "दम घुटने के दौरान भोजन या पेय न दें।"
+          ],
+          "emergency_signs": [
+            "बोलने, साँस लेने या प्रभावी ढंग से खाँसने में असमर्थता",
+            "होंठ नीले या धूसर पड़ना",
+            "बेहोशी"
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Drowning",
+      "category": "Breathing Emergencies",
+      "languages": {
+        "en": {
+          "description": "Immediate care for a person rescued from water.",
+          "steps": [
+            "Ensure your own safety; do not enter water unless trained and safe.",
+            "Call emergency services and arrange rescue.",
+            "Once safely out of the water, check responsiveness and normal breathing.",
+            "If not breathing normally, begin CPR and use an AED when available.",
+            "If breathing normally but unconscious, place in the recovery position when safe and monitor breathing.",
+            "Arrange medical assessment after a drowning incident."
+          ],
+          "donts": [
+            "Do not put yourself at risk to rescue someone.",
+            "Do not attempt to drain water from the lungs by pressing the abdomen."
+          ],
+          "emergency_signs": [
+            "Difficulty breathing",
+            "Unconsciousness",
+            "Persistent coughing or confusion"
+          ]
+        },
+        "hi": {
+          "description": "पानी से निकाले गए व्यक्ति को तुरंत दी जाने वाली प्राथमिक चिकित्सा।",
+          "steps": [
+            "अपनी सुरक्षा सुनिश्चित करें; प्रशिक्षण और सुरक्षित परिस्थिति के बिना पानी में न उतरें।",
+            "आपातकालीन सेवाओं को बुलाएँ और बचाव की व्यवस्था करें।",
+            "व्यक्ति को सुरक्षित बाहर निकालने के बाद उसकी प्रतिक्रिया और सामान्य साँस जाँचें।",
+            "यदि वह सामान्य रूप से साँस नहीं ले रहा है, तो CPR शुरू करें और उपलब्ध होने पर AED का उपयोग करें।",
+            "यदि वह बेहोश है लेकिन सामान्य रूप से साँस ले रहा है, तो सुरक्षित होने पर उसे रिकवरी पोज़िशन में रखें और साँस पर नज़र रखें।",
+            "डूबने की घटना के बाद चिकित्सकीय जाँच करवाएँ।"
+          ],
+          "donts": [
+            "किसी को बचाने के लिए स्वयं को खतरे में न डालें।",
+            "पेट दबाकर फेफड़ों से पानी निकालने की कोशिश न करें।"
+          ],
+          "emergency_signs": [
+            "साँस लेने में कठिनाई",
+            "बेहोशी",
+            "लगातार खाँसी या भ्रम"
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Asthma Attack",
+      "category": "Breathing Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid for sudden worsening of asthma symptoms.",
+          "steps": [
+            "Help the person sit upright and stay calm.",
+            "Help them use their own prescribed reliever inhaler according to their asthma plan.",
+            "Call emergency services if symptoms are severe, worsening, or not improving promptly.",
+            "Stay with the person and monitor breathing.",
+            "If they become unresponsive and are not breathing normally, begin CPR."
+          ],
+          "donts": [
+            "Do not make the person lie flat.",
+            "Do not leave them alone during a severe attack."
+          ],
+          "emergency_signs": [
+            "Severe breathlessness",
+            "Difficulty speaking",
+            "Blue or grey lips",
+            "Reliever inhaler not helping"
+          ]
+        },
+        "hi": {
+          "description": "अस्थमा के लक्षण अचानक बढ़ने पर दी जाने वाली प्राथमिक चिकित्सा।",
+          "steps": [
+            "व्यक्ति को सीधा बैठाएँ और शांत रहने में मदद करें।",
+            "उसके अपने निर्धारित रिलीवर इनहेलर का उपयोग उसकी अस्थमा योजना के अनुसार करने में मदद करें।",
+            "लक्षण गंभीर हों, बढ़ रहे हों या जल्दी सुधार न हो तो आपातकालीन सेवाएँ बुलाएँ।",
+            "व्यक्ति के साथ रहें और उसकी साँस पर नज़र रखें।",
+            "यदि वह बेहोश हो जाए और सामान्य रूप से साँस न ले, तो CPR शुरू करें।"
+          ],
+          "donts": [
+            "व्यक्ति को सपाट न लिटाएँ।",
+            "गंभीर दौरे के दौरान उसे अकेला न छोड़ें।"
+          ],
+          "emergency_signs": [
+            "बहुत अधिक साँस फूलना",
+            "बोलने में कठिनाई",
+            "होंठ नीले या धूसर पड़ना",
+            "रिलीवर इनहेलर से राहत न मिलना"
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "Chest Pain and Suspected Heart Attack",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid for chest discomfort that may indicate a heart attack.",
+          "steps": [
+            "Call emergency services urgently.",
+            "Help the person rest in a comfortable position, often semi-reclined.",
+            "Loosen tight clothing and reassure them.",
+            "Allow prescribed heart medication to be taken as directed.",
+            "Monitor consciousness and breathing; if they become unresponsive and are not breathing normally, begin CPR and use an AED."
+          ],
+          "donts": [
+            "Do not let the person exert themselves or drive themselves to hospital.",
+            "Do not delay emergency help while waiting for symptoms to pass."
+          ],
+          "emergency_signs": [
+            "Chest pressure, tightness, or pain",
+            "Pain spreading to arm, jaw, neck, or back",
+            "Sweating, nausea, breathlessness, or faintness"
+          ]
+        },
+        "hi": {
+          "description": "ऐसे सीने के दर्द या असुविधा में प्राथमिक चिकित्सा जो हार्ट अटैक का संकेत हो सकती है।",
+          "steps": [
+            "तुरंत आपातकालीन सेवाओं को बुलाएँ।",
+            "व्यक्ति को आरामदायक स्थिति में आराम करने दें, अक्सर थोड़ा पीछे टिकाकर बैठना उपयुक्त होता है।",
+            "तंग कपड़े ढीले करें और उसे आश्वस्त करें।",
+            "निर्धारित हृदय-औषधि निर्देशानुसार लेने दें।",
+            "होश और साँस पर नज़र रखें; यदि व्यक्ति बेहोश हो जाए और सामान्य रूप से साँस न ले, तो CPR शुरू करें और AED का उपयोग करें।"
+          ],
+          "donts": [
+            "व्यक्ति को शारीरिक मेहनत न करने दें और स्वयं वाहन चलाकर अस्पताल न जाने दें।",
+            "लक्षण ठीक होने की प्रतीक्षा में आपातकालीन सहायता लेने में देरी न करें।"
+          ],
+          "emergency_signs": [
+            "सीने में दबाव, जकड़न या दर्द",
+            "दर्द का बाँह, जबड़े, गर्दन या पीठ तक फैलना",
+            "पसीना, मतली, साँस फूलना या चक्कर"
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "Severe Bleeding",
+      "category": "Injuries",
+      "languages": {
+        "en": {
+          "description": "First aid to control significant external bleeding.",
+          "steps": [
+            "Make sure the scene is safe and protect yourself from blood if possible.",
+            "Apply firm, direct pressure to the wound with a clean dressing or cloth.",
+            "Maintain pressure and seek emergency help for severe bleeding.",
+            "If an object is embedded, apply pressure around it without removing it.",
+            "Keep the person warm and monitor breathing and consciousness."
+          ],
+          "donts": [
+            "Do not remove an embedded object.",
+            "Do not repeatedly lift the dressing to check the wound."
+          ],
+          "emergency_signs": [
+            "Heavy or uncontrolled bleeding",
+            "Signs of shock",
+            "Deep wound or amputation"
+          ]
+        },
+        "hi": {
+          "description": "अधिक मात्रा में बाहरी रक्तस्राव को नियंत्रित करने की प्राथमिक चिकित्सा।",
+          "steps": [
+            "स्थान सुरक्षित करें और संभव हो तो रक्त से बचाव करें।",
+            "साफ पट्टी या कपड़े से घाव पर मजबूत, सीधा दबाव डालें।",
+            "दबाव बनाए रखें और गंभीर रक्तस्राव में आपातकालीन सहायता लें।",
+            "यदि कोई वस्तु घुसी हुई हो, तो उसे निकाले बिना उसके आसपास दबाव दें।",
+            "व्यक्ति को गर्म रखें और उसकी साँस तथा होश पर नज़र रखें।"
+          ],
+          "donts": [
+            "घाव में फँसी वस्तु न निकालें।",
+            "घाव जाँचने के लिए पट्टी बार-बार न हटाएँ।"
+          ],
+          "emergency_signs": [
+            "बहुत अधिक या अनियंत्रित रक्तस्राव",
+            "शॉक के संकेत",
+            "गहरा घाव या अंग कट जाना"
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "title": "Small Cuts and Abrasions",
+      "category": "Injuries",
+      "languages": {
+        "en": {
+          "description": "Basic care for minor cuts and grazes.",
+          "steps": [
+            "Wash your hands and ensure the area is safe.",
+            "Control bleeding with gentle direct pressure.",
+            "Rinse the wound with clean running water.",
+            "Cover with a clean dressing or plaster.",
+            "Watch for signs of infection and seek care if they develop."
+          ],
+          "donts": [
+            "Do not put unclean substances into the wound.",
+            "Do not pull off a dressing that has stuck; moisten it to loosen."
+          ],
+          "emergency_signs": [
+            "Bleeding that will not stop",
+            "Deep or contaminated wound",
+            "Increasing redness, swelling, pain, discharge, or fever"
+          ]
+        },
+        "hi": {
+          "description": "छोटे कट और खरोंच की सामान्य देखभाल।",
+          "steps": [
+            "हाथ धोएँ और सुनिश्चित करें कि स्थान सुरक्षित है।",
+            "हल्का सीधा दबाव देकर रक्तस्राव रोकें।",
+            "घाव को साफ बहते पानी से धोएँ।",
+            "साफ पट्टी या प्लास्टर से ढकें।",
+            "संक्रमण के संकेत देखें और होने पर चिकित्सा सहायता लें।"
+          ],
+          "donts": [
+            "घाव में गंदे पदार्थ न लगाएँ।",
+            "चिपकी हुई पट्टी को खींचकर न हटाएँ; उसे गीला करके ढीला करें।"
+          ],
+          "emergency_signs": [
+            "रक्तस्राव बंद न होना",
+            "गहरा या दूषित घाव",
+            "बढ़ती लालिमा, सूजन, दर्द, स्राव या बुखार"
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "Nosebleed",
+      "category": "Injuries",
+      "languages": {
+        "en": {
+          "description": "First aid for bleeding from the nose.",
+          "steps": [
+            "Sit the person down and ask them to lean forward.",
+            "Pinch the soft part of the nose just above the nostrils.",
+            "Keep pressure for 10–15 minutes while breathing through the mouth.",
+            "Seek medical help if bleeding persists or follows significant injury."
+          ],
+          "donts": [
+            "Do not tilt the head backward.",
+            "Do not let the person swallow or inhale blood if avoidable."
+          ],
+          "emergency_signs": [
+            "Bleeding continues after 20 minutes of pressure",
+            "Heavy bleeding, faintness, or breathing difficulty",
+            "Nosebleed after serious trauma"
+          ]
+        },
+        "hi": {
+          "description": "नाक से खून आने पर प्राथमिक चिकित्सा।",
+          "steps": [
+            "व्यक्ति को बैठाएँ और आगे की ओर झुकने को कहें।",
+            "नाक के नर्म हिस्से को नथुनों के ठीक ऊपर दबाएँ।",
+            "मुँह से साँस लेते हुए 10–15 मिनट तक दबाव बनाए रखें।",
+            "खून जारी रहे या गंभीर चोट के बाद नाक से खून आए तो चिकित्सा सहायता लें।"
+          ],
+          "donts": [
+            "सिर पीछे न झुकाएँ।",
+            "जहाँ संभव हो, व्यक्ति को खून निगलने या साँस में खींचने से बचाएँ।"
+          ],
+          "emergency_signs": [
+            "20 मिनट दबाव देने के बाद भी खून जारी रहना",
+            "बहुत अधिक रक्तस्राव, चक्कर या साँस लेने में कठिनाई",
+            "गंभीर चोट के बाद नाक से खून आना"
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "title": "Shock",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid for signs of poor circulation after injury or illness.",
+          "steps": [
+            "Call emergency services urgently and treat the cause if possible, such as severe bleeding.",
+            "Help the person lie comfortably; avoid unnecessary movement if injury is suspected.",
+            "Keep them warm with a blanket and loosen tight clothing.",
+            "Monitor consciousness and breathing continuously.",
+            "If unconscious but breathing normally, use the recovery position when appropriate; if not breathing normally, begin CPR."
+          ],
+          "donts": [
+            "Do not give food or drink in serious injury or suspected shock.",
+            "Do not raise the legs if you suspect a fracture or spinal injury."
+          ],
+          "emergency_signs": [
+            "Pale, cold, clammy skin",
+            "Rapid weak pulse",
+            "Confusion, fainting, or reduced responsiveness"
+          ]
+        },
+        "hi": {
+          "description": "चोट या बीमारी के बाद रक्त-संचार कम होने के संकेतों में प्राथमिक चिकित्सा।",
+          "steps": [
+            "तुरंत आपातकालीन सेवाएँ बुलाएँ और संभव हो तो कारण, जैसे गंभीर रक्तस्राव, का उपचार करें।",
+            "व्यक्ति को आराम से लिटाएँ; चोट की आशंका हो तो अनावश्यक रूप से न हिलाएँ।",
+            "कंबल से गर्म रखें और तंग कपड़े ढीले करें।",
+            "होश और साँस की लगातार निगरानी करें।",
+            "यदि व्यक्ति बेहोश है लेकिन सामान्य रूप से साँस ले रहा है, तो उपयुक्त होने पर रिकवरी पोज़िशन दें; सामान्य साँस न हो तो CPR शुरू करें।"
+          ],
+          "donts": [
+            "गंभीर चोट या शॉक की आशंका में भोजन या पेय न दें।",
+            "फ्रैक्चर या रीढ़ की चोट की आशंका में पैर न उठाएँ।"
+          ],
+          "emergency_signs": [
+            "पीली, ठंडी और चिपचिपी त्वचा",
+            "तेज़ और कमजोर नाड़ी",
+            "भ्रम, बेहोशी या प्रतिक्रिया कम होना"
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "title": "Fractures",
+      "category": "Injuries",
+      "languages": {
+        "en": {
+          "description": "First aid for suspected broken bones.",
+          "steps": [
+            "Keep the person still and support the injured part in the position found.",
+            "Control any bleeding and cover open wounds with a clean dressing.",
+            "Immobilize the injury if you can do so without causing pain or movement.",
+            "Arrange medical assessment; call emergency services for serious injuries."
+          ],
+          "donts": [
+            "Do not try to straighten or push a bone back into place.",
+            "Do not move the person unnecessarily if head, neck, or spine injury is possible."
+          ],
+          "emergency_signs": [
+            "Open fracture",
+            "Severe deformity or pain",
+            "Numbness, pale or cold limb",
+            "Suspected head, neck, spine, pelvis, or major bone injury"
+          ]
+        },
+        "hi": {
+          "description": "संभावित टूटी हुई हड्डी के लिए प्राथमिक चिकित्सा।",
+          "steps": [
+            "व्यक्ति को स्थिर रखें और घायल हिस्से को मिली हुई स्थिति में सहारा दें।",
+            "रक्तस्राव नियंत्रित करें और खुले घाव को साफ पट्टी से ढकें।",
+            "यदि बिना दर्द या हलचल बढ़ाए संभव हो, तो चोट को स्थिर करें।",
+            "चिकित्सकीय जाँच की व्यवस्था करें; गंभीर चोट में आपातकालीन सेवाएँ बुलाएँ।"
+          ],
+          "donts": [
+            "हड्डी को सीधा करने या वापस जगह पर धकेलने की कोशिश न करें।",
+            "सिर, गर्दन या रीढ़ की चोट की आशंका में व्यक्ति को अनावश्यक रूप से न हिलाएँ।"
+          ],
+          "emergency_signs": [
+            "खुला फ्रैक्चर",
+            "गंभीर विकृति या दर्द",
+            "सुन्नपन, पीला या ठंडा अंग",
+            "सिर, गर्दन, रीढ़, श्रोणि या बड़ी हड्डी की चोट की आशंका"
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "title": "Sprains and Strains",
+      "category": "Injuries",
+      "languages": {
+        "en": {
+          "description": "First aid for injuries to ligaments, muscles, or tendons.",
+          "steps": [
+            "Stop activity and protect the injured area.",
+            "Rest and support the affected limb.",
+            "Apply a cold pack wrapped in cloth for short periods.",
+            "Elevate the limb if comfortable and seek medical assessment if severe."
+          ],
+          "donts": [
+            "Do not apply ice directly to the skin.",
+            "Do not force movement or continue activity through severe pain."
+          ],
+          "emergency_signs": [
+            "Severe pain or swelling",
+            "Inability to use or bear weight on the limb",
+            "Deformity or suspected fracture"
+          ]
+        },
+        "hi": {
+          "description": "लिगामेंट, मांसपेशी या टेंडन की चोट में प्राथमिक चिकित्सा।",
+          "steps": [
+            "गतिविधि रोकें और घायल हिस्से को सुरक्षित रखें।",
+            "प्रभावित अंग को आराम दें और सहारा दें।",
+            "कपड़े में लपेटा हुआ ठंडा पैक थोड़े समय के लिए लगाएँ।",
+            "आरामदायक हो तो अंग को ऊँचा रखें और गंभीर चोट में चिकित्सकीय जाँच लें।"
+          ],
+          "donts": [
+            "बर्फ सीधे त्वचा पर न लगाएँ।",
+            "जबरन अंग न हिलाएँ और गंभीर दर्द के बावजूद गतिविधि जारी न रखें।"
+          ],
+          "emergency_signs": [
+            "गंभीर दर्द या सूजन",
+            "अंग का उपयोग करने या उस पर वजन डालने में असमर्थता",
+            "विकृति या फ्रैक्चर की आशंका"
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "Unconsciousness",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid for a person who is unresponsive.",
+          "steps": [
+            "Check scene safety and responsiveness.",
+            "Call emergency services and check breathing.",
+            "If breathing normally, place in the recovery position when appropriate and monitor continuously.",
+            "If not breathing normally, begin CPR and use an AED.",
+            "Stay with the person until help arrives."
+          ],
+          "donts": [
+            "Do not give food, drink, or medication by mouth.",
+            "Do not leave the person alone."
+          ],
+          "emergency_signs": [
+            "Any unexplained unconsciousness",
+            "Abnormal or absent breathing",
+            "Unconsciousness following injury"
+          ]
+        },
+        "hi": {
+          "description": "प्रतिक्रिया न देने वाले व्यक्ति के लिए प्राथमिक चिकित्सा।",
+          "steps": [
+            "स्थान की सुरक्षा और व्यक्ति की प्रतिक्रिया जाँचें।",
+            "आपातकालीन सेवाएँ बुलाएँ और साँस जाँचें।",
+            "यदि सामान्य साँस ले रहा है, तो उपयुक्त होने पर रिकवरी पोज़िशन में रखें और लगातार निगरानी करें।",
+            "यदि सामान्य साँस नहीं ले रहा है, तो CPR शुरू करें और AED का उपयोग करें।",
+            "मदद आने तक व्यक्ति के साथ रहें।"
+          ],
+          "donts": [
+            "मुँह से भोजन, पेय या दवा न दें।",
+            "व्यक्ति को अकेला न छोड़ें।"
+          ],
+          "emergency_signs": [
+            "बिना स्पष्ट कारण बेहोशी",
+            "असामान्य या अनुपस्थित साँस",
+            "चोट के बाद बेहोशी"
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "title": "Stroke",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "Recognize and respond to sudden signs of stroke.",
+          "steps": [
+            "Use FAST: check face drooping, arm weakness, and speech difficulty.",
+            "Call emergency services immediately and note when symptoms began.",
+            "Keep the person comfortable and monitor breathing and consciousness.",
+            "If unconscious but breathing normally, place in recovery position; if not breathing normally, begin CPR."
+          ],
+          "donts": [
+            "Do not give food, drink, or medication unless directed by medical professionals.",
+            "Do not wait for symptoms to improve."
+          ],
+          "emergency_signs": [
+            "Sudden facial droop",
+            "Sudden weakness or numbness, especially on one side",
+            "Sudden speech, vision, or balance problems"
+          ]
+        },
+        "hi": {
+          "description": "स्ट्रोक के अचानक संकेत पहचानने और प्रतिक्रिया देने की प्राथमिक चिकित्सा।",
+          "steps": [
+            "FAST का उपयोग करें: चेहरे का लटकना, बाँह की कमजोरी और बोलने में कठिनाई जाँचें।",
+            "तुरंत आपातकालीन सेवाएँ बुलाएँ और लक्षण शुरू होने का समय नोट करें।",
+            "व्यक्ति को आरामदायक रखें और साँस तथा होश पर नज़र रखें।",
+            "यदि बेहोश है लेकिन सामान्य साँस ले रहा है, तो रिकवरी पोज़िशन दें; सामान्य साँस न हो तो CPR शुरू करें।"
+          ],
+          "donts": [
+            "चिकित्सकीय निर्देश के बिना भोजन, पेय या दवा न दें।",
+            "लक्षणों में सुधार की प्रतीक्षा न करें।"
+          ],
+          "emergency_signs": [
+            "अचानक चेहरे का एक ओर झुकना",
+            "अचानक कमजोरी या सुन्नपन, विशेषकर एक तरफ",
+            "अचानक बोलने, देखने या संतुलन में समस्या"
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "title": "Seizure",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid during a seizure or convulsion.",
+          "steps": [
+            "Protect the person from nearby hazards and cushion their head.",
+            "Loosen tight clothing around the neck and time the seizure.",
+            "When convulsions stop, check breathing and place in recovery position if breathing normally.",
+            "Stay with the person and reassure them as they recover.",
+            "Call emergency services for a prolonged or repeated seizure, injury, or breathing difficulty."
+          ],
+          "donts": [
+            "Do not restrain the person.",
+            "Do not put anything in their mouth.",
+            "Do not give food or drink until fully alert."
+          ],
+          "emergency_signs": [
+            "Seizure lasting 5 minutes or longer",
+            "Repeated seizures without recovery",
+            "First seizure, injury, pregnancy, or breathing difficulty"
+          ]
+        },
+        "hi": {
+          "description": "दौरे या ऐंठन के दौरान प्राथमिक चिकित्सा।",
+          "steps": [
+            "व्यक्ति को आसपास के खतरों से बचाएँ और सिर के नीचे नरम वस्तु रखें।",
+            "गर्दन के तंग कपड़े ढीले करें और दौरे का समय नोट करें।",
+            "ऐंठन रुकने पर साँस जाँचें; सामान्य साँस हो तो रिकवरी पोज़िशन दें।",
+            "व्यक्ति के साथ रहें और होश लौटने पर उसे आश्वस्त करें।",
+            "दौरा लंबा या बार-बार हो, चोट लगे या साँस लेने में कठिनाई हो तो आपातकालीन सेवाएँ बुलाएँ।"
+          ],
+          "donts": [
+            "व्यक्ति को जबरन पकड़कर न रोकें।",
+            "मुँह में कुछ न डालें।",
+            "पूरी तरह होश में आने तक भोजन या पेय न दें।"
+          ],
+          "emergency_signs": [
+            "दौरा 5 मिनट या अधिक चलना",
+            "बीच में होश आए बिना बार-बार दौरे",
+            "पहला दौरा, चोट, गर्भावस्था या साँस लेने में कठिनाई"
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "title": "Diarrhoea and Dehydration",
+      "category": "Illnesses",
+      "languages": {
+        "en": {
+          "description": "First aid to reduce dehydration caused by diarrhoea.",
+          "steps": [
+            "Give oral rehydration solution (ORS) in frequent small sips if the person is conscious and can swallow.",
+            "Continue appropriate feeding and fluids as tolerated.",
+            "Monitor for dehydration and seek medical advice, especially for infants and older adults."
+          ],
+          "donts": [
+            "Do not give fluids by mouth to an unconscious person.",
+            "Do not ignore worsening symptoms or inability to keep fluids down."
+          ],
+          "emergency_signs": [
+            "Very little urine, extreme thirst, or lethargy",
+            "Blood in stool",
+            "Persistent vomiting or severe abdominal pain"
+          ]
+        },
+        "hi": {
+          "description": "दस्त के कारण होने वाले निर्जलीकरण को कम करने की प्राथमिक चिकित्सा।",
+          "steps": [
+            "यदि व्यक्ति होश में है और निगल सकता है, तो ORS घोल बार-बार थोड़ी मात्रा में दें।",
+            "सहन होने के अनुसार उचित भोजन और तरल जारी रखें।",
+            "निर्जलीकरण के संकेत देखें और विशेषकर शिशुओं तथा बुज़ुर्गों के लिए चिकित्सकीय सलाह लें।"
+          ],
+          "donts": [
+            "बेहोश व्यक्ति को मुँह से तरल न दें।",
+            "लक्षण बिगड़ने या तरल न रुक पाने को अनदेखा न करें।"
+          ],
+          "emergency_signs": [
+            "बहुत कम पेशाब, अत्यधिक प्यास या सुस्ती",
+            "मल में खून",
+            "लगातार उल्टी या तेज पेट दर्द"
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "title": "Fever",
+      "category": "Illnesses",
+      "languages": {
+        "en": {
+          "description": "Basic care for a person with elevated body temperature.",
+          "steps": [
+            "Encourage rest and monitor the person's condition.",
+            "Offer fluids if the person is alert and able to swallow.",
+            "Keep clothing comfortable and avoid overheating.",
+            "Seek medical advice for persistent fever or concerning symptoms."
+          ],
+          "donts": [
+            "Do not use ice baths or extreme cooling.",
+            "Do not give fluids to someone who is unconscious."
+          ],
+          "emergency_signs": [
+            "Difficulty breathing or reduced consciousness",
+            "Seizure",
+            "Severe dehydration or rapidly worsening condition"
+          ]
+        },
+        "hi": {
+          "description": "बढ़े हुए शरीर के तापमान वाले व्यक्ति की सामान्य देखभाल।",
+          "steps": [
+            "आराम करने दें और स्थिति पर नज़र रखें।",
+            "यदि व्यक्ति सतर्क है और निगल सकता है, तो तरल दें।",
+            "आरामदायक कपड़े रखें और शरीर को अत्यधिक गर्म न होने दें।",
+            "बुखार लगातार रहे या चिंताजनक लक्षण हों तो चिकित्सकीय सलाह लें।"
+          ],
+          "donts": [
+            "बर्फ़ के पानी से स्नान या अत्यधिक ठंडा करने के तरीके न अपनाएँ।",
+            "बेहोश व्यक्ति को तरल न दें।"
+          ],
+          "emergency_signs": [
+            "साँस लेने में कठिनाई या होश कम होना",
+            "दौरा",
+            "गंभीर निर्जलीकरण या तेजी से बिगड़ती स्थिति"
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "title": "Burns and Scalds",
+      "category": "Injuries",
+      "languages": {
+        "en": {
+          "description": "First aid for burns caused by heat, flames, or hot liquids.",
+          "steps": [
+            "Ensure the scene is safe and stop the burning process.",
+            "Cool the burn under cool running water for 20 minutes.",
+            "Remove nearby jewellery or clothing unless stuck to the skin.",
+            "Cover loosely with a clean, non-fluffy dressing or cling film.",
+            "Seek medical care for serious or extensive burns."
+          ],
+          "donts": [
+            "Do not apply ice, butter, oil, or toothpaste.",
+            "Do not burst blisters or remove material stuck to the burn."
+          ],
+          "emergency_signs": [
+            "Deep or extensive burns",
+            "Burns to face, hands, feet, genitals, or major joints",
+            "Difficulty breathing or suspected inhalation injury"
+          ]
+        },
+        "hi": {
+          "description": "गर्मी, आग या गर्म तरल से हुए जलने पर प्राथमिक चिकित्सा।",
+          "steps": [
+            "स्थान सुरक्षित करें और जलने की प्रक्रिया रोकें।",
+            "जले हुए हिस्से को 20 मिनट तक ठंडे बहते पानी से ठंडा करें।",
+            "पास के आभूषण या कपड़े हटाएँ, लेकिन त्वचा से चिपकी वस्तु न हटाएँ।",
+            "साफ, रोएँ-रहित पट्टी या क्लिंग फिल्म से ढीले ढंग से ढकें।",
+            "गंभीर या बड़े जलने पर चिकित्सा सहायता लें।"
+          ],
+          "donts": [
+            "बर्फ, मक्खन, तेल या टूथपेस्ट न लगाएँ।",
+            "छाले न फोड़ें और जले हिस्से से चिपकी सामग्री न हटाएँ।"
+          ],
+          "emergency_signs": [
+            "गहरा या व्यापक जलना",
+            "चेहरे, हाथ, पैर, जननांग या बड़े जोड़ पर जलना",
+            "साँस लेने में कठिनाई या धुएँ के साँस में जाने की आशंका"
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "title": "Heatstroke and Heat Exhaustion",
+      "category": "Environmental Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid for illness caused by overheating.",
+          "steps": [
+            "Move the person to a cooler place and call emergency services if heatstroke is suspected.",
+            "Begin rapid cooling: remove excess clothing and cool the body with water, fanning, or cold packs wrapped in cloth.",
+            "If fully conscious and able to swallow, offer cool water.",
+            "Monitor breathing and consciousness; if unresponsive, follow emergency response steps."
+          ],
+          "donts": [
+            "Do not delay cooling while waiting for help.",
+            "Do not give drinks to an unconscious or confused person."
+          ],
+          "emergency_signs": [
+            "Confusion, collapse, or seizure",
+            "Very hot body with altered consciousness",
+            "Severe or worsening symptoms"
+          ]
+        },
+        "hi": {
+          "description": "अत्यधिक गर्मी के कारण होने वाली बीमारी में प्राथमिक चिकित्सा।",
+          "steps": [
+            "व्यक्ति को ठंडी जगह ले जाएँ और हीटस्ट्रोक की आशंका में आपातकालीन सेवाएँ बुलाएँ।",
+            "तेज़ी से ठंडा करना शुरू करें: अतिरिक्त कपड़े हटाएँ और पानी, हवा या कपड़े में लपेटे ठंडे पैक से शरीर ठंडा करें।",
+            "यदि व्यक्ति पूरी तरह होश में है और निगल सकता है, तो ठंडा पानी दें।",
+            "साँस और होश पर नज़र रखें; बेहोश होने पर आपातकालीन प्रतिक्रिया करें।"
+          ],
+          "donts": [
+            "मदद की प्रतीक्षा करते हुए ठंडा करना न टालें।",
+            "बेहोश या भ्रमित व्यक्ति को पेय न दें।"
+          ],
+          "emergency_signs": [
+            "भ्रम, गिर पड़ना या दौरा",
+            "होश में बदलाव के साथ बहुत गर्म शरीर",
+            "गंभीर या बिगड़ते लक्षण"
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "title": "Poisoning",
+      "category": "Medical Emergencies",
+      "languages": {
+        "en": {
+          "description": "First aid when a person may have swallowed, inhaled, or contacted a poison.",
+          "steps": [
+            "Ensure your own safety and avoid contact with the substance.",
+            "Call emergency services, a poison centre, or a nearby hospital for immediate advice.",
+            "If safe, identify the substance and keep its container or label for clinicians.",
+            "Arrange urgent medical assessment and monitor breathing and consciousness."
+          ],
+          "donts": [
+            "Do not induce vomiting.",
+            "Do not give food, drink, milk, or home remedies unless instructed by a medical professional."
+          ],
+          "emergency_signs": [
+            "Difficulty breathing",
+            "Seizures or unconsciousness",
+            "Severe vomiting or sudden deterioration"
+          ]
+        },
+        "hi": {
+          "description": "किसी व्यक्ति द्वारा ज़हर निगलने, साँस में लेने या संपर्क में आने की आशंका में प्राथमिक चिकित्सा।",
+          "steps": [
+            "अपनी सुरक्षा सुनिश्चित करें और पदार्थ के संपर्क से बचें।",
+            "तुरंत आपातकालीन सेवाओं, ज़हर केंद्र या नज़दीकी अस्पताल से सलाह लें।",
+            "सुरक्षित हो तो पदार्थ की पहचान करें और उसका डिब्बा या लेबल चिकित्सकों के लिए रखें।",
+            "तत्काल चिकित्सकीय जाँच की व्यवस्था करें और साँस तथा होश पर नज़र रखें।"
+          ],
+          "donts": [
+            "उल्टी कराने की कोशिश न करें।",
+            "चिकित्सकीय निर्देश के बिना भोजन, पेय, दूध या घरेलू उपचार न दें।"
+          ],
+          "emergency_signs": [
+            "साँस लेने में कठिनाई",
+            "दौरे या बेहोशी",
+            "गंभीर उल्टी या अचानक हालत बिगड़ना"
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "title": "Animal Bites and Snakebites",
+      "category": "Bites and Stings",
+      "languages": {
+        "en": {
+          "description": "First aid for bites from animals or snakes.",
+          "steps": [
+            "Make sure the animal or snake is no longer a danger; do not attempt to catch it.",
+            "For animal bites, wash the wound thoroughly with soap and running water for 10–15 minutes and cover with a clean dressing.",
+            "For suspected snakebite, keep the person still, reassure them, and immobilize the bitten limb.",
+            "Arrange urgent transport to a healthcare facility for assessment and treatment."
+          ],
+          "donts": [
+            "Do not cut, suck, or apply herbs or chemicals to a snakebite.",
+            "Do not apply a tourniquet or attempt to capture the snake.",
+            "Do not delay medical care after an animal bite or scratch."
+          ],
+          "emergency_signs": [
+            "Any suspected snakebite",
+            "Animal bite or scratch that breaks the skin",
+            "Swelling, bleeding, weakness, or breathing difficulty"
+          ]
+        },
+        "hi": {
+          "description": "जानवर या साँप के काटने पर प्राथमिक चिकित्सा।",
+          "steps": [
+            "सुनिश्चित करें कि जानवर या साँप अब खतरा नहीं है; उसे पकड़ने की कोशिश न करें।",
+            "जानवर के काटने पर घाव को साबुन और बहते पानी से 10–15 मिनट अच्छी तरह धोएँ और साफ पट्टी से ढकें।",
+            "साँप के काटने की आशंका में व्यक्ति को स्थिर रखें, आश्वस्त करें और काटे गए अंग को स्थिर करें।",
+            "जाँच और उपचार के लिए तुरंत स्वास्थ्य केंद्र पहुँचने की व्यवस्था करें।"
+          ],
+          "donts": [
+            "साँप के काटने पर घाव काटें, चूसें या जड़ी-बूटी/रसायन न लगाएँ।",
+            "टूर्निकेट न बाँधें और साँप पकड़ने की कोशिश न करें।",
+            "जानवर के काटने या खरोंच के बाद चिकित्सा लेने में देरी न करें।"
+          ],
+          "emergency_signs": [
+            "साँप के काटने की कोई भी आशंका",
+            "त्वचा तोड़ने वाला जानवर का काटना या खरोंच",
+            "सूजन, रक्तस्राव, कमजोरी या साँस लेने में कठिनाई"
+          ]
+        }
+      }
+    }
+  ]
+}

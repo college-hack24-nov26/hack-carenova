@@ -1,0 +1,51 @@
+# Core Data Science
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# RAG and LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+
+# Hugging Face and Embeddings
+transformers
+sentence-transformers
+torch
+
+# Vector Database
+faiss-cpu
+
+# PDF Processing
+pypdf
+pdfplumber
+PyMuPDF
+
+# Frontend
+streamlit
+
+# Backend API
+fastapi
+uvicorn[standard]
+
+# PostgreSQL Database
+sqlalchemy
+psycopg[binary]
+
+# Image Assessment
+pillow
+opencv-python-headless
+
+# Voice Assistant
+faster-whisper
+av
+
+# Utilities
+python-dotenv
+requests
+httpx
