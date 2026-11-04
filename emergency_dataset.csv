@@ -1,0 +1,33 @@
+text,label
+"I cannot breathe properly",breathing_emergency
+"The person is choking",breathing_emergency
+"Someone has stopped breathing",breathing_emergency
+"Severe shortness of breath",breathing_emergency
+"The person is unconscious",unresponsive_collapse
+"He collapsed and will not wake up",unresponsive_collapse
+"The person is not responding",unresponsive_collapse
+"Someone passed out and is unresponsive",unresponsive_collapse
+"The person's face suddenly drooped",possible_stroke
+"Sudden slurred speech",possible_stroke
+"Sudden arm weakness and difficulty speaking",possible_stroke
+"I think someone is having a stroke",possible_stroke
+"I have crushing chest pain",possible_heart_attack
+"The person has chest pressure",possible_heart_attack
+"Sudden chest tightness",possible_heart_attack
+"I think I am having a heart attack",possible_heart_attack
+"The wound is bleeding heavily",severe_bleeding_injury
+"Blood is spurting from a wound",severe_bleeding_injury
+"Bleeding will not stop",severe_bleeding_injury
+"Someone had a serious road accident",severe_bleeding_injury
+"A person was bitten by a snake",urgent_exposure_injury
+"The person is experiencing heatstroke",urgent_exposure_injury
+"Someone has suffered an electric shock",urgent_exposure_injury
+"The person may have been poisoned",urgent_exposure_injury
+"Someone has taken an overdose",urgent_exposure_injury
+"The person is having a seizure",urgent_exposure_injury
+"The person has a deep burn",urgent_exposure_injury
+"I have a severe burn injury",urgent_exposure_injury
+"I have a mild headache",other
+"I have a small paper cut",other
+"I have mild muscle soreness",other
+"I feel slightly tired",other
