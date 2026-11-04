@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { supabase } from "../supabaseClient.js";
 import { Alert, CallButton, Field, Spinner } from "../components/ui.jsx";
+import { triggerPostEnquiryFollowup } from '../utils/notifications';
 
 const PHONE_RE = /^\+?[0-9][0-9\s()-]{5,18}$/;
 const clean = (p) => (p || "").replace(/[\s()-]/g, "");
@@ -59,6 +60,9 @@ export default function Contacts() {
       `I may need assistance.\nSituation: ${situation.trim() || "Help needed"}\n` +
       "If there is immediate danger, contact emergency services.";
     setSms({ message, phone: clean(selected.phone) });
+
+    // Trigger follow-up notification after user engages with emergency enquiry/alert
+    triggerPostEnquiryFollowup();
   }
 
   return (

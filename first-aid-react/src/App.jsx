@@ -16,6 +16,8 @@ import Hospitals from "./pages/Hospitals.jsx";
 import Contacts from "./pages/Contacts.jsx";
 import Evaluation from "./pages/Evaluation.jsx";
 import Profile from "./pages/Profile.jsx";
+import { useEffect } from "react";
+import { requestNotificationPermission, checkHealthCheckupSchedule } from "./utils/notifications";
 
 /** Logged-out → /login ; logged-in without a health profile → /health-profile */
 function RequireAccount({ children, needProfile = true }) {
@@ -28,6 +30,12 @@ function RequireAccount({ children, needProfile = true }) {
 
 export default function App() {
   const { user, loading } = useAuth();
+
+  // Initialize notifications and 2-month checkup reminders on app mount
+  useEffect(() => {
+    requestNotificationPermission();
+    checkHealthCheckupSchedule();
+  }, []);
 
   if (!supabaseConfigured) {
     return (
